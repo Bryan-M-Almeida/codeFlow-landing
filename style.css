@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    line-height: 1.6;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #2563eb;
+}
+
+.features {
+    padding: 60px 20px;
+    background-color: #1e293b;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature {
+    background-color: #0f172a;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #3b82f6;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #cbd5e1;
+}
+
+.mockup {
+    padding: 60px 20px;
+    background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+    color: white;
+    text-align: center;
+}
+
+.mockup h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.mockup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.mockup-content img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mockup-content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+
+.testimonials {
+    background-color: #0f172a;
+    padding: 60px 20px;
+    color: #f8fafc;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+}
+
+.testimonial {
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 280px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    color: #cbd5e1;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    font-style: normal;
+    color: #3b82f6;
+}
+
+.testimonials .cta-button {
+    background-color: #3b82f6;
+    padding: 18px 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.testimonials .cta-button:hover {
+    background-color: #2563eb;
+}
+
+.faq {
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #3b82f6;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #334155;
+}
+
+.faq-question {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #cbd5e1;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s;
+}
+
+.faq-question:hover {
+    color: #3b82f6;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 15px;
+    color: #a1a1aa;
+}
+
+.faq-answer p {
+    margin: 10px 0 20px 0;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: #0f172a;
+    padding: 20px 0;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    text-align: center;
+    border-top: 1px solid #334155;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.footer-nav a {
+    color: #3b82f6;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #2563eb;
+}
