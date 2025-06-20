@@ -62,6 +62,12 @@ p {
     margin-bottom: 40px;
     color: #fff;
 }
+.mockup .container p{
+    margin-bottom: 10px;
+    padding: 3px;
+    background-color: #0f172a;
+    border: 1px black solid;
+}
 
 .feature-grid {
     display: grid;
@@ -112,9 +118,10 @@ p {
 }
 
 .mockup-content img {
-    width: 100%;
+    width: 35%;
     max-width: 600px;
     border-radius: 16px;
+    border: 1px solid black;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
